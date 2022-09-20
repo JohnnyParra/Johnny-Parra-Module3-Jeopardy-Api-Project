@@ -1,0 +1,83 @@
+html,body{
+  margin:0px;
+  padding:0px;
+  background: linear-gradient(120deg, rgb(9, 16, 211), rgb(3, 7, 142) );
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+}
+
+.reload{
+  position: absolute;
+  right: 20px;
+  top: 120px;
+  cursor: pointer;
+}
+
+.allQuestions {
+  display: flex;
+  width: 100vw;
+}
+
+.category-title {
+  height: 100px;
+  font-size: 2.5vw;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background: linear-gradient(120deg, rgb(9, 16, 211), rgb(3, 7, 142) );
+  padding: 5px;
+}
+
+.colQuestions {
+  text-align: center;
+  width: 20%;
+  border: solid 3px black;
+}
+.colQuestions h3{
+  margin: 0px;
+  font-size: 7vw;
+  border-top: solid 3px black;
+  background: linear-gradient(120deg, rgb(9, 16, 211), rgb(3, 7, 142) );
+}
+
+h3{
+  color: rgb(205, 175, 7);
+}
+h3:hover {
+  color: rgb(248, 213, 9);
+  cursor: pointer;
+}
+h3:active {
+  color: rgb(170, 145, 5);
+}
+
+.question-card{
+  height: 100vh;
+  width: 100vw;
+  visibility: hidden;
+  position: absolute;
+  top: 0px;
+  background: linear-gradient(120deg, rgb(9, 16, 211), rgb(3, 7, 142) );
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 3vw;
+  cursor: pointer;
+  padding: 5px;
+}
