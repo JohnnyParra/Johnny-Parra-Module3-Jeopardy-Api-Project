@@ -53,7 +53,9 @@ let blah = document.querySelectorAll("h3");
 blah.forEach(h3 => h3.addEventListener('click', question));
 function question(event) {
   const el = event.target;
-  el.style.visibility = 'hidden';
+  // el.style.visibility = 'hidden';
+  el.style.pointerEvents = 'none';
+  el.style.color = 'rgba(0, 0, 0, 0.418)';
   const col = el.dataset.col;
   const row = el.dataset.row;
   displayQuestion(col, row);
